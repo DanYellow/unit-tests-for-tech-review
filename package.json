@@ -1,0 +1,18 @@
+{
+  "name": "unit-tests-tech-review",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest --outputFile=logs.json --json --verbose=false"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^20.0.4"
+  },
+  "dependencies": {
+    "express": "^4.15.3"
+  }
+}
