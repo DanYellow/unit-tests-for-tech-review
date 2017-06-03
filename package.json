@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "jest --outputFile=logs.json --json --verbose=false -o"
+    "test": "jest --outputFile=logs.json --json --verbose=false",
+    "test_dev": "jest --outputFile=logs.json --json --verbose=true -o"
   },
   "keywords": [],
   "author": "",
