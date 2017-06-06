@@ -25,3 +25,5 @@ yarn-error.log*
 docker-compose.yml
 
 /linters
+
+logs.json

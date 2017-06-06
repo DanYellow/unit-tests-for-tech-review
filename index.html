@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Redux Universal Example</title>
+  </head>
+  <body>
+    <div id="app">
+      <ul>
+        <li>Nombre de tests échoués : {{content.numFailedTests}}</li>
+        <li>Nombre de tests au total : {{content.numTotalTests}}</li>
+      </ul>
+
+      <ul>
+        {% for test in content.testResults %}
+          <li>{{test.endTime}}</li>
+          <li>
+            <ul>
+              {% for subTest in test.assertionResults %}
+                <li>{{subTest.title}} : {{subTest.status}}</li>
+              {% endfor %}
+            </ul>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </body>
+</html>

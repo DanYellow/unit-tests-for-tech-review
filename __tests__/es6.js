@@ -6,7 +6,7 @@ describe(TITLE, () => {
 
     expect($).toBe([1]);
     expect($).toBe([3, 4, 6, 2, 6, 7, 9, 0]);
-  }); 
+  });
 
   test(`10 - ${TITLE}`, async () => {
     const myLocalAPI = {
